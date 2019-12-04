@@ -28,10 +28,10 @@ class Converter
     {
         $style = $this->getStyleHtml();
         $this->domPdf->loadHtml($style . $this->instance->text($markdown));
-        $this->domPdf->render();
         $this->domPdf->setPaper('A3', 'landscape');
+        $this->domPdf->render();
 
-        echo $this->domPdf->output();
+        return $this->domPdf->output();
     }
 
     private function getStyleHtml()
