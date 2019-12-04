@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b32890be6024ab8585830f9d9801a824",
+    "content-hash": "f208fb0d16e20b19bb178902d0cc4846",
     "packages": [
         {
             "name": "dompdf/dompdf",
@@ -241,7 +241,7 @@
         },
         {
             "name": "rodchyn/superscript",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "../superscript",
@@ -1833,9 +1833,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "rodchyn/superscript": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
